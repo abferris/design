@@ -1,0 +1,70 @@
+// Set the html and body to 100% height and width
+
+html, #root{
+  height:100%;
+  width: 100%;
+  color: rgb(194, 194, 194);
+  background-color: rgb(56, 66, 75);
+  margin: 0px;
+  padding: 0px;
+}
+
+// Apply some basic styling the header and footer
+header, footer{
+  position: fixed;
+  height: 5%;
+  width: 100%;
+  background-color: rgb(83, 82, 82);
+  color: rgb(194, 194, 194);
+  margin: 0px;
+  padding: 0px;
+}
+header{
+  h1{
+    float:left;
+    font-size: 50px;
+    margin: 10px 5px;
+  }
+  nav{
+    float: right;
+    *{
+      display: inline-block;
+      padding:5px;
+    }
+  }
+  height: 15%;
+  top: 0;
+  left: 0;
+}
+
+footer{
+  left: 0;
+  bottom: 0;
+}
+
+// Apply some basic styling to main
+main{
+  padding: 15% 10px 5% 10px;
+  th{
+    font-size: 2em;
+  }
+  *{
+    padding: 5px;
+  }
+
+  form{
+    legend{
+      font-size: 1.5em;
+    }
+    background-color: rgb(83, 82, 82);
+    fieldset{
+      &> * {
+        display: block;
+      }
+    }
+  }
+}
+// Pin the footer to the bottom
+
+
+// Keep the header fixed to the top, scrolling long content underneath
