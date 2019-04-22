@@ -21,6 +21,7 @@ header, footer{
 }
 header{
   h1{
+    color: black;
     float:left;
     font-size: 50px;
     margin: 10px 5px;
@@ -40,6 +41,7 @@ header{
 footer{
   left: 0;
   bottom: 0;
+  color: black;
 }
 
 // Apply some basic styling to main
@@ -47,6 +49,7 @@ main{
   padding: 15% 10px 5% 10px;
   th{
     font-size: 2em;
+    color: black;
   }
   *{
     padding: 5px;
@@ -54,6 +57,7 @@ main{
 
   form{
     legend{
+      color: black;
       font-size: 1.5em;
     }
     background-color: rgb(83, 82, 82);
