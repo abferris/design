@@ -1,6 +1,7 @@
 # DESIGN CHALLENEGE 1: SASS Design Scaffold
 April 22, 2019  
-
+Author: Aaron Ferris  
+  
 Take the basic file, and add SASS to make it look good.
   
 ## Challenge Links
