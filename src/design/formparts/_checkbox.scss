@@ -1,0 +1,14 @@
+$font-size: 2em;
+$ratio: 1; 
+$size: $ratio + em;
+$ratio: $ratio;
+$gutter: 5px; 
+$stroke-dash: 270;
+$stroke: (
+  thickness: $gutter/3,
+  style: solid,
+  color: #fff
+);
+$mark-ischecked: (
+  stroke-dashoffset: 0
+); 

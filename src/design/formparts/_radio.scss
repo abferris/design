@@ -1,0 +1,13 @@
+$input-radius: 0 !default;
+$input-unit: 16px !default; // accepts px, em, rem
+$input-spacing: $input-unit * 1.5 !default; // adjust depending on font-family
+$input-font: sans-serif !default;
+
+$radio-background: white !default;
+$radio-txt-color: rgb(0, 0, 0) !default;
+
+$radio-checked-custom: (
+  background: rgb(0, 0, 0)
+) !default;
+$radio-checked: #222233 !default;
+$radio-checked-focus: white !default;
