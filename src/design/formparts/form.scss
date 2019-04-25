@@ -1,0 +1,19 @@
+
+
+form{
+  border: outset 6px rgb(151, 159, 172) ;
+  border-radius: 4px;
+}
+fieldset{
+  background-color: rgb(121, 119, 119);
+  border-radius: 4px;
+  width: 95%;
+  margin: 5px auto;
+  legend{
+    background-color: rgb(121, 119, 119);
+    border-radius: 4px;
+  }
+}
+
+select{
+}
