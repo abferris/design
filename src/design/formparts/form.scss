@@ -3,6 +3,8 @@
 form{
   border: outset 6px rgb(151, 159, 172) ;
   border-radius: 4px;
+  background-color: rgb(83, 82, 82);
+
 }
 fieldset{
   background-color: rgb(121, 119, 119);
@@ -10,10 +12,13 @@ fieldset{
   width: 95%;
   margin: 5px auto;
   legend{
+    &> * {
+      display: block;
+    }
+    color: black;
+    font-size: 1.5em;
     background-color: rgb(121, 119, 119);
     border-radius: 4px;
   }
 }
 
-select{
-}

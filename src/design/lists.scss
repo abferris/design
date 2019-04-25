@@ -1,0 +1,12 @@
+ol, ul {
+  border: outset 6px rgb(151, 159, 172) ;
+  border-radius: 4px;
+  background-color: rgb(83, 82, 82);
+  li{
+    background-color: rgb(121, 119, 119);
+    border-radius: 4px;
+    width: 95%;
+    margin: 5px auto;
+    padding: 1% 2%;
+  }
+}
