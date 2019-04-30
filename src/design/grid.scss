@@ -1,0 +1,29 @@
+.grid{
+  width: 80%;
+ 
+  margin: 30px 10%;
+  border: rgb(161, 156, 156) outset 3px;
+  &> *{
+    text-align: center;
+    border: solid grey;
+    box-sizing: border-box;
+    margin: 0px;
+    display: inline-block;
+    padding:5px;
+  }
+}
+.one{
+  width: 100%;
+}
+.two{
+  width:50%;
+}
+.three{
+  width:33%;
+}
+.four{
+  width: 25%;
+}
+.five{
+  width: 20%;
+}
