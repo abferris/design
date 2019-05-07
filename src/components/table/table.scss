@@ -1,0 +1,19 @@
+#table {
+  display: flex;
+  flex-direction: column;
+   * {
+     flex-grow: 1;
+      display:flex;
+      flex-direction: row;
+      * { 
+        flex-grow: 1;
+      }
+   }
+   #tableHeader{
+     flex-grow: 2;
+   }
+}
+
+#headerCell {
+   background-color:rgb(211, 211, 211)
+}
